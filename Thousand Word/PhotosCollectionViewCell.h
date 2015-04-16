@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotosCollectionViewCell.h
 //  Thousand Word
 //
 //  Created by delmarz on 1/25/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PhotosCollectionViewCell : UICollectionViewCell
 
+@property (strong, nonatomic) UIImageView *imageView;
 
 @end
-
